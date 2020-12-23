@@ -1,0 +1,78 @@
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.header{
+    height: 8%;
+    width: 100%;
+    background-color: #fdfcfa;
+    box-shadow: 10px 5px lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    height: 50px;
+    width: 180px;
+}
+
+.verticalLine{
+    border-left: 2px solid darkgrey;
+    margin-left: 15px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+
+.container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer{
+    height: 70%;
+    width: 35%;
+    background-color: #fdfcfa;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 10%;
+    width: 90%;
+    border-radius: 3px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: lightslategray;
+    
+    cursor: pointer;
+}
+
+.text {
+    color: red;
+    font-size: 18px;
+}
+
+.errorBox{
+    height: 10%;
+    width: 90%;
+    border-radius: 3px;
+    margin: 10px;
+    font-size: 20px;
+    border-color: red;
+}
